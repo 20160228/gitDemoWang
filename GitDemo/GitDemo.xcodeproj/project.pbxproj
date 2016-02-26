@@ -14,8 +14,9 @@
 		BC8EDED01C80226D00C666E0 /* GitDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC8EDECE1C80226D00C666E0 /* GitDemo.xcdatamodeld */; };
 		BC8EDED21C80226D00C666E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8EDED11C80226D00C666E0 /* Assets.xcassets */; };
 		BC8EDED51C80226D00C666E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8EDED31C80226D00C666E0 /* LaunchScreen.storyboard */; };
-		BC8EDEE31C8026EF00C666E0 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8EDEE21C8026EF00C666E0 /* Car.m */; };
 		BC8EDEDF1C8025C100C666E0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8EDEDE1C8025C100C666E0 /* Person.m */; };
+		BC8EDEE31C8026EF00C666E0 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8EDEE21C8026EF00C666E0 /* Car.m */; };
+		BC8EDEE61C8035C300C666E0 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8EDEE51C8035C300C666E0 /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +31,12 @@
 		BC8EDED11C80226D00C666E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC8EDED41C80226D00C666E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC8EDED61C80226D00C666E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC8EDEE11C8026EF00C666E0 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
-		BC8EDEE21C8026EF00C666E0 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		BC8EDEDD1C8025C100C666E0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		BC8EDEDE1C8025C100C666E0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		BC8EDEE11C8026EF00C666E0 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		BC8EDEE21C8026EF00C666E0 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		BC8EDEE41C8035C300C666E0 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		BC8EDEE51C8035C300C666E0 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,17 +93,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BC8EDEE01C8026DE00C666E0 /* B */ = {
-			isa = PBXGroup;
-			children = (
-				BC8EDEE11C8026EF00C666E0 /* Car.h */,
-				BC8EDEE21C8026EF00C666E0 /* Car.m */,
-			);
-			name = B;
-            sourceTree = "<group>";
-};
-
-
 		BC8EDEDC1C8025A800C666E0 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +100,17 @@
 				BC8EDEDE1C8025C100C666E0 /* Person.m */,
 			);
 			name = "New Group";
+			sourceTree = "<group>";
+		};
+		BC8EDEE01C8026DE00C666E0 /* B */ = {
+			isa = PBXGroup;
+			children = (
+				BC8EDEE11C8026EF00C666E0 /* Car.h */,
+				BC8EDEE21C8026EF00C666E0 /* Car.m */,
+				BC8EDEE41C8035C300C666E0 /* Cat.h */,
+				BC8EDEE51C8035C300C666E0 /* Cat.m */,
+			);
+			name = B;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +185,7 @@
 			files = (
 				BC8EDEE31C8026EF00C666E0 /* Car.m in Sources */,
 				BC8EDECA1C80226D00C666E0 /* ViewController.m in Sources */,
+				BC8EDEE61C8035C300C666E0 /* Cat.m in Sources */,
 				BC8EDED01C80226D00C666E0 /* GitDemo.xcdatamodeld in Sources */,
 				BC8EDEDF1C8025C100C666E0 /* Person.m in Sources */,
 				BC8EDEC71C80226D00C666E0 /* AppDelegate.m in Sources */,
